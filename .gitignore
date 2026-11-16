@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Generated graphs
+results/datasets/
+
+# Experiment outputs
+outputs/
+outputs_*/
+outputs*/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
